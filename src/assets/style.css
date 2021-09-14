@@ -23,8 +23,11 @@
 
 .title {
   position: relative;
-  background-color: rgba(0, 0, 0, 1);
-  color: rgb(255, 255, 255);
+  /* background-color: rgba(0, 0, 0, 1); */
+  background-color: linear-gradient(to right, #ffe000, #799f0c);;
+  /* color: rgb(255, 255, 255); */
+  color: rgba(0, 0, 0, 1);
+
   padding: 20px;
   font-size: 1.8em;
   border-radius: 5px;
