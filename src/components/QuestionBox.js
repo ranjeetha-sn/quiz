@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const QuestionBox = ({ question, options, selected }) => {
-  console.log("typing");
+  console.log("typing",process.env.REACT_APP_BACKEND_URL);
   const [answer, setAnswer] = useState(options);
   return (
     <div className="questionBox">
