@@ -46,7 +46,7 @@ this.setState({
   render() {
     return (
       <div className="container">
-        <div className="title">QuizBee</div>
+        <div className="title">Quiz it with ranju</div>
         {this.state.questionBank.length > 0 &&
         this.state.responses < 5 &&              //value touches 5 display the res
           this.state.questionBank.map(
